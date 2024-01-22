@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "72047575304",
+    "project_id": "bus-app-37bfa",
+    "storage_bucket": "bus-app-37bfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72047575304:android:78269d4b749f51516decbd",
+        "android_client_info": {
+          "package_name": "com.example.bus_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72047575304-f760anoe8sihuumh29cjlim6vvu57b0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlHv6HJdv6sZ-1W_45zLEM0zBqQV5WUN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72047575304-f760anoe8sihuumh29cjlim6vvu57b0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

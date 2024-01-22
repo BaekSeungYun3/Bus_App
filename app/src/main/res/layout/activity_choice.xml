@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".ChoiceActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:rotationX="8"
+        android:rotationY="15"
+        android:layout_marginTop="20dp"
+        android:text="Kinder"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="70sp"/>
+
+    <TextView
+        android:id="@+id/choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="180dp"
+        android:text="사용자를 선택하세요!"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="41sp"/>
+
+    <Button
+        android:id="@+id/ch_parents"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/white"
+        android:text="부모님"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/ch_teacher"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/white"
+        android:text="선생님"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+
+
+</RelativeLayout>
